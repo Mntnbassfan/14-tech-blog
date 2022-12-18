@@ -20,6 +20,6 @@
     "express-session": "^1.17.3",
     "mysql2": "^2.2.5",
     "passport": "^0.4.1",
-    "sequelize": "^6.3.5"
+    "sequelize": "^6.27.0"
   }
 }

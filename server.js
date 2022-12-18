@@ -29,6 +29,6 @@ sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
 
-require('./db').sync()
-  .then(() => app.listen(process.env.PORT || 3000))
-  .catch(err => console.log(err))
+// require('./db').sync()
+//   .then(() => app.listen(PORT))
+//   .catch(err => console.log(err))
