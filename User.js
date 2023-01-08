@@ -1,9 +1,9 @@
-const pls = require ('passport-local-sequelize')
-const { DataTypes } = require('sequelize')
-const sequelize = require('sequelize')
+// const pls = require ('passport-local-sequelize')
+// const { DataTypes } = require('sequelize')
+// const sequelize = require('sequelize')
 
-const User = pls.defineUser(sequelize, {
-    // columns go here
-})
+// const User = pls.defineUser(sequelize, {
+//     // columns go here
+// })
 
-module.exports = user
+// module.exports = user
