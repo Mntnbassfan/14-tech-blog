@@ -8,5 +8,44 @@
 </head>
 <body>
     
+    <div class="container">
+        <h1>Home</h1>
+
+        <div class="row">
+            <form class="col s14">
+                <div class="row"
+                <div class="input-field col14">
+                    <textarea id="title></textarea>
+                    <label for="textarea1">title</Textarea></label>
+                </div>
+                <a id="submitPost btn">Submit Post</a>
+            </form>
+        </div>
+
+        <div class="row">
+            <form class="col s14">
+                <div class="row"
+                <div class="input-field col14">
+                    <textarea id="body"></textarea>
+                    <label for="textarea1">body</Textarea></label>
+                </div>
+                <a id="submitPost btn">Submit Post</a>
+            </form>
+        </div>
+    </div>
+
+    <script>
+
+document.getElementById('submitPost').addEventListener('click', event=>{
+    let newPost = {
+        title: document.getElementById('title').value,
+        body: document.getElementById('body').value
+    }
+console.log(NewPost);
+
+
+})
+
+    </script>
 </body>
 </html>
